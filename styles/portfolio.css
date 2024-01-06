@@ -43,11 +43,63 @@ nav a {
 /* Header Related Style */
 .header {
   background: white;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
+
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .pP{
-     width: 500px;    
+
+.banner-content {
+  max-width: 500px;
+}
+.banner .pP {
+  width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  /* font-weight: 800; */
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  /* color: var(--Dark-01, #181818); */
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+header div div .banner-dscrp {
+  color: darkblue;
+  font-family: "Open Sans";
+}
+
+/* Main Section Related Styles */
+
+/* About Section Related Styles */
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-dscrp{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about {
+  padding: 130px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  background-color: #fff8f3;
+  margin-top: 130px;
 }
