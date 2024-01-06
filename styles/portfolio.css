@@ -43,9 +43,9 @@ nav a {
 /* Header Related Style */
 .header {
   background: white;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 .banner {
@@ -79,7 +79,13 @@ header div div .banner-dscrp {
   font-family: "Open Sans";
 }
 
+
 /* Main Section Related Styles */
+main{
+max-width: 1140px;
+margin: 0 auto;
+}
+
 
 /* About Section Related Styles */
 .section-title {
@@ -87,7 +93,6 @@ header div div .banner-dscrp {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  line-height: normal;
 }
 .section-dscrp{
     color: #757575;
@@ -102,4 +107,5 @@ header div div .banner-dscrp {
   align-items: center; */
   background-color: #fff8f3;
   margin-top: 130px;
+  border-radius: 10px;
 }
